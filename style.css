@@ -7,6 +7,7 @@
 
 body {
     margin: 0;
+    background-color: #f1f0f0;
 }
 
 /* Navigation bar */
@@ -43,6 +44,8 @@ nav .active {
     background-color: #03045e;
 }
 
+/* Sidebar */
+
 .main_area {
     display: flex;
     flex-direction: row;
@@ -56,13 +59,29 @@ aside {
     margin-top: 100px;
     font-size: 1.3rem;
     background-color: #0077b6;
-    color: #f6f6f6;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
 }
 aside ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 aside ul li {
-    margin-top: 30px;
+    margin-top: 0px;
+}
+aside ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 20px 15px 20px 30px;
+    color: #f6f6f6;
+}
+aside ul > :first-child a {
+    border-top-left-radius: 40px;
+}
+aside ul > :last-child a {
+    border-bottom-left-radius: 40px;
+}
+aside ul li a:hover {
+    background-color: #03045e;
 }

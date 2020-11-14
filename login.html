@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/4455219e86.js"
+            crossorigin="anonymous"
+        ></script>
         <title>Login</title>
         <link rel="stylesheet" href="./style.css" />
     </head>
@@ -12,5 +16,30 @@
             <a href="./regstration.html">Registration</a>
             <a class="active" href="./login.html">Login</a>
         </nav>
+        <div class="flex_container">
+            <form>
+                <div class="input_items">
+                    <h2>Login form</h2>
+                    <div class="login">
+                        <i class="fas fa-user"></i>
+                        <input
+                            type="text"
+                            placeholder="Username"
+                            name="login"
+                        />
+                    </div>
+                    <div class="login">
+                        <i class="fas fa-key"></i>
+                        <input
+                            type="password"
+                            placeholder="Password"
+                            name="login"
+                        />
+                    </div>
+                    <input type="submit" value="Login" />
+                    <p>Forgot password?</p>
+                </div>
+            </form>
+        </div>
     </body>
 </html>

@@ -3,3 +3,35 @@
     margin: 0;
     padding: 0;
 }
+
+/* Navigation bar */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #0077b6;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    float: right;
+    color: #f6f6f6;
+}
+nav img {
+    width: 80px;
+    float: left;
+}
+nav > :first-child {
+    margin-right: auto;
+    padding: 10px;
+}
+nav > :nth-child(n + 2) {
+    padding: 15px;
+    border-radius: 60px;
+    margin-right: 40px;
+    font-size: 1.6rem;
+}
+nav > :nth-child(n + 2):hover {
+    background-color: #03045e;
+}

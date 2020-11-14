@@ -7,7 +7,7 @@
 
 body {
     margin: 0;
-    background-color: #f1f0f0;
+    background-color: #caf0f8;
 }
 
 /* Navigation bar */
@@ -105,12 +105,15 @@ aside ul li a:hover {
 }
 
 .blog_post {
-    border: 1px solid;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 80px 320px;
     justify-content: center;
     align-items: center;
+    border-radius: 80px;
+
+    box-shadow: 13px 13px 12px #bac5c7, -2px -4px 8px #bac5c7;
+    background-color: #48cae4;
 }
 
 .blog_post img {
@@ -130,4 +133,29 @@ aside ul li a:hover {
     grid-column: 2/4;
     margin-left: 0;
     margin-bottom: 0px;
+}
+
+.blog_post:hover {
+    cursor: pointer;
+    color: white;
+    animation-name: epic;
+    animation-duration: 0.3s;
+}
+
+@keyframes epic {
+    0% {
+        transform: rotate(2deg);
+    }
+    25% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
+    75% {
+        transform: rotate(-2deg);
+    }
+    100% {
+        transform: rotate(2deg);
+    }
 }

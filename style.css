@@ -147,6 +147,25 @@ aside ul li a:hover {
     background-color: #5e60ce;
 }
 
+/* Blog pages */
+
+.real_post {
+    width: 40%;
+    margin: auto;
+}
+.real_post h1 {
+    font-size: 2.5rem;
+    margin-top: 70px;
+}
+.real_post h2 {
+    font-size: 1.8rem;
+    margin-top: 100px;
+}
+.real_post p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
 /* Animation */
 
 @keyframes epic {

@@ -216,7 +216,7 @@ footer div a:hover {
     padding: 60px;
     margin: auto;
     background-color: #7fd6e6;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 15px 15px 10px #bac5c7, -4px -6px 10px #bac5c7;
     border: 1px solid #66c3d3;
 }
@@ -302,18 +302,47 @@ footer div a:hover {
 }
 .registration_input {
     margin: 30px 10px;
+    position: relative;
 }
+/* Tooltip */
+.registration_input > i {
+    background-color: white;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.registration_input span {
+    position: absolute;
+    visibility: hidden;
+}
+
+/* Debug tooltip 
+.registration_container form > :nth-child(4) i:hover span {
+    visibility: visible;
+}
+.registration_input input i:hover span {
+    visibility: visible;
+}
+.registration_input input:focus .tooltip_password {
+    border: 3px solid #0096c7;
+    border-right: none;
+}
+ */
 .registration_input input {
     padding: 10px;
     outline: none;
     display: block;
     width: 70%;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 .registration_input label {
     margin-right: 30px;
     font-size: 1.3rem;
     width: 30%;
 }
+
 .registration_submit {
     margin: 30px auto 20px auto;
 }

@@ -77,9 +77,11 @@ aside ul li a {
 aside ul > :first-child a {
     border-top-left-radius: 40px;
 }
-aside ul > :last-child a {
+
+/* aside ul > :last-child a {
     border-bottom-left-radius: 40px;
-}
+} */
+
 aside ul li a:hover {
     background-color: #03045e;
 }

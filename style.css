@@ -218,6 +218,7 @@ footer div a:hover {
     background-color: #7fd6e6;
     border-radius: 10px;
     box-shadow: 15px 15px 10px #bac5c7, -4px -6px 10px #bac5c7;
+    border: 1px solid #66c3d3;
 }
 
 .flex_container form .input_items {
@@ -257,6 +258,7 @@ footer div a:hover {
     border: none;
     font-size: 1em;
 }
+
 .flex_container form .input_items i {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -273,4 +275,65 @@ footer div a:hover {
 .input_items > :first-child {
     margin: 25px auto;
     font-size: 1.8rem;
+}
+
+/* Registration page */
+
+.registration_container {
+    display: flex;
+    height: 80vh;
+}
+.registration_container form {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+    background-color: #7fd6e6;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px #bac5c7, -4px -6px 10px #bac5c7;
+    border: 1px solid #66c3d3;
+}
+.registration_container form > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.registration_input {
+    margin: 30px 10px;
+}
+.registration_input input {
+    padding: 10px;
+    outline: none;
+    display: block;
+    width: 70%;
+}
+.registration_input label {
+    margin-right: 30px;
+    font-size: 1.3rem;
+    width: 30%;
+}
+.registration_submit {
+    margin: 30px auto 20px auto;
+}
+.registration_submit input {
+    outline: none;
+    border: none;
+    padding: 15px;
+    background-color: #047ba3;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    width: 300px;
+    cursor: pointer;
+}
+.registration_submit input:hover {
+    background-color: #034961;
+}
+.registration_container form h2 {
+    margin: 0px auto 60px auto;
+    text-decoration: underline;
+    font-size: 2.2rem;
 }

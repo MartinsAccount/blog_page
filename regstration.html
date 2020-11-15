@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/4455219e86.js"
+            crossorigin="anonymous"
+        ></script>
         <title>Registration</title>
         <link rel="stylesheet" href="./style.css" />
     </head>
@@ -12,5 +16,31 @@
             <a class="active" href="./regstration.html">Registration</a>
             <a href="./login.html">Login</a>
         </nav>
+        <div class="registration_container">
+            <form>
+                <h2>Registration form</h2>
+                <div class="registration_input">
+                    <label for="">E-mail address:</label>
+                    <input type="email" />
+                </div>
+                <div class="registration_input">
+                    <label for="">Username:</label>
+                    <input type="text" />
+                    <i class="fas fa-info-circle"></i>
+                </div>
+                <div class="registration_input">
+                    <label for="">Password:</label>
+                    <input type="password" />
+                    <i class="fas fa-info-circle"></i>
+                </div>
+                <div class="registration_input">
+                    <label for="">Confirm password:</label>
+                    <input type="password" />
+                </div>
+                <div class="registration_submit">
+                    <input type="submit" value="Registration" />
+                </div>
+            </form>
+        </div>
     </body>
 </html>
